@@ -1,0 +1,36 @@
+{
+    "data": {
+        "raw_taxonomy_path": "/data/ebay/notebooks/jingcshi/Curation/data/2021-10-12",
+        "breadcrumb_link": "id"
+    },
+    "corpus": {
+        "train_path": "/data/ebay/notebooks/jingcshi/Curation/data/train/human_label.csv",
+        "eval_path": "/data/ebay/notebooks/jingcshi/Curation/data/eval/human_label.csv",
+        "test_path": "/data/ebay/notebooks/jingcshi/Curation/data/eval/human_label.csv",
+        "sample_negative": true,
+        "negative_ratio": 0.9,
+        "mask_taxonomy": false,
+        "sample_size_from_masking": 20000,
+        "train_split": 0.5,
+        "equivalence_ratio": 0,
+        "subclass_ratio": 0.01,
+        "common_parent_ratio": 0.09
+    },
+    "training": {
+        "freeze_bert": false,
+        "learning_rate": 5e-5,
+        "batch_size": 8,
+        "num_epochs": 20
+    },
+    "pretrained": {
+        "pretrained_path": "",
+        "tokenizer_path": ""
+    },
+    "embedding": {
+        "batch_size": 500
+    },
+    "candidate_generation": {
+        "knn_neighbours": 50,
+        "knn_algorithm": "kd_tree"
+    }
+}
