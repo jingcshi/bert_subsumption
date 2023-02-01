@@ -1,4 +1,4 @@
 # bert_subsumption
 Subsumption prediction on e-commerce taxonomies
 
-Click [here](https://drive.google.com/drive/folders/1QKcjqrUHa1_UbNhebkmETdZ04ljC9Yw2?usp=share_link) for the extracted item-augmented taxonomy of AliOpenKG.
+Click [here](https://drive.google.com/drive/folders/1HBxaNTjNh7JttlwC2i5hdI5bhsbhsCB3?usp=sharing) for the extracted item-augmented taxonomy of AliOpenKG.
