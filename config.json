@@ -1,11 +1,10 @@
 {
     "data": {
-        "raw_taxonomy_path": "",
+        "tbox_path": "",
+        "abox_path": "",
         "breadcrumb_link": "id"
     },
     "corpus": {
-        "tbox_path": "",
-        "abox_path": "",
         "sample_negative": true,
         "negative_ratio": 0.9,
         "mask_taxonomy": false,
