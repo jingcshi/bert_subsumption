@@ -1,12 +1,11 @@
 {
     "data": {
-        "raw_taxonomy_path": "/data/ebay/notebooks/jingcshi/Curation/data/2021-10-12",
+        "raw_taxonomy_path": "",
         "breadcrumb_link": "id"
     },
     "corpus": {
-        "train_path": "/data/ebay/notebooks/jingcshi/Curation/data/train/human_label.csv",
-        "eval_path": "/data/ebay/notebooks/jingcshi/Curation/data/eval/human_label.csv",
-        "test_path": "/data/ebay/notebooks/jingcshi/Curation/data/eval/human_label.csv",
+        "tbox_path": "",
+        "abox_path": "",
         "sample_negative": true,
         "negative_ratio": 0.9,
         "mask_taxonomy": false,
